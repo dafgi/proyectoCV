@@ -31,7 +31,7 @@ body{
 }
 
 
-/* Barra de navegacion
+/* Barra de navegacion*/
 .navbar {
 padding: 3rem;
 background-color: rgb(3 2 38);
@@ -44,7 +44,7 @@ justify-content: space-between;
 .navbar-toggler{
     padding: 5px; 
 }
-/*Adaptable (reponsivo)
+/*Adaptable (reponsivo)*/
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display:none;
@@ -52,7 +52,21 @@ justify-content: space-between;
     }
 
 }
-*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(18, 21, 196);
+    color: white;
+    cursor: pointer;
+    padding: 8px 10px 5px;
+    border-radius: 50%;
+    font-size: 18px;
+}
 /* seccion principal*/
 .hero {
 background-color:rgb(3 2 38);
@@ -138,22 +152,21 @@ section{
  text-align:center;
  border-radius: 5px;
 }
-.sobremi .contenedor.col{
-    color: #2948ff;
+.sobre-mi .contenedor .col{
+    color: white;
     margin-bottom: 5px;
     margin-top: 20px;
     font-size: 25px;
     margin-left: 20px;
-
 }
 
 .seccion-titulo{
-    font-size: 4rem;
+    font-size: 2rem;
     padding: 15px 0;
     font-family: 'Glory', sans-serif;
 }
 .seccion-texto{
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 10px;
 }
 
@@ -174,7 +187,7 @@ section{
     margin-top: 10px;
 }
 .conocimiento-titulo {
-    font-size: 60px;
+    font-size: 2rem;
     font-weight: bold;
     margin: 15px;
     font-family: 'Glory', sans-serif;
@@ -186,7 +199,7 @@ section{
  margin:5px;
 }
 .habilidades i{
-    font-size: 4rem;
+    font-size: 3rem;
     color:#11b9f1;
     background-color: black;
     padding: 9px 20px;
@@ -268,7 +281,7 @@ section{
     border: 2px solid rgb(13, 110, 253);
 }
 .footer-texto {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 20px;
     margin-bottom: 50px;
     font-family:'Glory', sans-serif;
